@@ -1,0 +1,392 @@
+[
+  [
+    {
+      "__type__": "cc.SceneAsset",
+      "_name": "main",
+      "scene": {
+        "__id__": 1
+      },
+      "asyncLoadAssets": null
+    },
+    {
+      "__type__": "cc.Scene",
+      "_name": "New Node",
+      "_children": [
+        {
+          "__id__": 2
+        }
+      ],
+      "_anchorPoint": {
+        "__type__": "cc.Vec2"
+      },
+      "autoReleaseAssets": false
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Canvas",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 3
+        },
+        {
+          "__id__": 4
+        },
+        {
+          "__id__": 5
+        },
+        {
+          "__id__": 6
+        },
+        {
+          "__id__": 7
+        },
+        {
+          "__id__": 8
+        },
+        {
+          "__id__": 9
+        }
+      ],
+      "_level": 1,
+      "_components": [
+        {
+          "__type__": "cc.Canvas",
+          "node": {
+            "__id__": 2
+          },
+          "_designResolution": {
+            "__type__": "cc.Size",
+            "width": 1334,
+            "height": 750
+          }
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 2
+          },
+          "_alignFlags": 45,
+          "_originalWidth": 1334,
+          "_originalHeight": 750
+        }
+      ],
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 253,
+        "g": 253,
+        "b": 253
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 1334,
+        "height": 750
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": 667,
+        "y": 375
+      },
+      "_id": "58CZBdkeNLnZ8VaXFE4Fol"
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Main Camera",
+      "_parent": {
+        "__id__": 2
+      },
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "cc.Camera",
+          "node": {
+            "__id__": 3
+          },
+          "_clearFlags": 7,
+          "_depth": -1
+        }
+      ],
+      "_position": {
+        "__type__": "cc.Vec3",
+        "z": 404.4338635673329
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "bg",
+      "_parent": {
+        "__id__": 2
+      },
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 4
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "a2MjXRFdtLlYQ5ouAFv/+R"
+          },
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 4
+          },
+          "_alignFlags": 45,
+          "_originalWidth": 1334,
+          "_originalHeight": 750
+        }
+      ],
+      "_color": {
+        "__type__": "cc.Color"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 1334,
+        "height": 750
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "lb01",
+      "_parent": {
+        "__id__": 2
+      },
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 5
+          },
+          "_alignFlags": 8,
+          "_left": 7.623000000000047,
+          "_right": 575,
+          "_originalWidth": 210
+        },
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 5
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_string": "这是分割线",
+          "_N$string": "这是分割线"
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 200,
+        "height": 50.4
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": -559.377
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "lb01",
+      "_parent": {
+        "__id__": 2
+      },
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 6
+          },
+          "_alignFlags": 32,
+          "_left": 1289.789,
+          "_right": 117.34699999999992,
+          "_originalWidth": 210
+        },
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 6
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_string": "这是分割线",
+          "_N$string": "这是分割线"
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 200,
+        "height": 50.4
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": 449.653
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "lb01",
+      "_parent": {
+        "__id__": 2
+      },
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 7
+          },
+          "_alignFlags": 1,
+          "_top": 73.75500000000001
+        },
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 7
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_string": "这是分割线",
+          "_N$string": "这是分割线"
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 200,
+        "height": 50.4
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": -78.136,
+        "y": 276.045
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "lb01",
+      "_parent": {
+        "__id__": 2
+      },
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 8
+          },
+          "_alignFlags": 4,
+          "_bottom": 75.11200000000001
+        },
+        {
+          "__type__": "cc.Label",
+          "node": {
+            "__id__": 8
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_string": "这是分割线",
+          "_N$string": "这是分割线"
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 200,
+        "height": 50.4
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": -78.136,
+        "y": -274.688
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "webview",
+      "_parent": {
+        "__id__": 2
+      },
+      "_level": 2,
+      "_components": [
+        {
+          "__type__": "cc.WebView",
+          "node": {
+            "__id__": 9
+          },
+          "_useOriginalSize": false,
+          "_url": "https://www.infoq.cn/"
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 9
+          },
+          "_alignFlags": 45,
+          "_left": 213.5469999999998,
+          "_right": 320.45299999999986,
+          "_top": 125,
+          "_bottom": 124.99999999999999,
+          "_originalWidth": 1334,
+          "_originalHeight": 750
+        }
+      ],
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 800.0000000000003,
+        "height": 500
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": -53.45300000000003
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_sprite_splash",
+      "texture": "02delMVqdBD70a/HSD99FK",
+      "rect": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        2,
+        2
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]
