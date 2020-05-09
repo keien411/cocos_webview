@@ -105,5 +105,7 @@ var matrix = "matrix(" + scaleNum + "," + -b + "," + -c + "," + scaleNum + "," +
 放上完整demo
 
 
+> 修改后的的js放在项目路径下的js文件夹中
+
 
  
