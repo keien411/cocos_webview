@@ -102,7 +102,7 @@ var matrix = "matrix(" + scaleNum + "," + -b + "," + -c + "," + scaleNum + "," +
 > 2倍缩放
 
 
-放上完整demo
+放上完整demo [cocos_webview](https://github.com/keien411/cocos_webview)
 
 
 > 修改后的的js放在项目路径下的js文件夹中
